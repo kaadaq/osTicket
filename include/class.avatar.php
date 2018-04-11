@@ -211,6 +211,8 @@ extends Avatar {
     function __construct($user, $imageset) {
         $this->email = $user->getEmail();
         $this->d = $imageset;
+        // Changed for new default avatar
+$this->d = 'https://support.stage-9.co.uk/file.php?key=4pgm5wxk7ek_cfkkggyqfqee77uwt0_0&expires=1523577600&signature=b241e008fe1fa62ed2b69262fdf6ff8b45f2ddad'
     }
 
     function setSize($size) {
