@@ -193,6 +193,7 @@ extends AvatarSource {
             'monsterid' => 'Monster',
             'wavatar' => 'Wavatar',
             'retro' => 'Retro',
+            'robohash' => 'Robohash',
         );
     }
 
