@@ -193,6 +193,7 @@ extends AvatarSource {
             'monsterid' => 'Monster',
             'wavatar' => 'Wavatar',
             'retro' => 'Retro',
+            'robohash' => 'Robohash',
         );
     }
 
@@ -211,7 +212,7 @@ extends Avatar {
     function __construct($user, $imageset) {
         $this->email = $user->getEmail();
         $this->d = $imageset;
-    }
+            }
 
     function setSize($size) {
         $this->size = $size;
