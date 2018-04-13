@@ -124,6 +124,11 @@ table.list tbody tr:nth-child(2n+1) td {
 #header {
     background-color: var(--mid-bg-color);
 }
+
+#header a {
+    color: var(--link-color);
+}
+
 #sub_nav {
     background: var(--mid-bg-color);
 }
