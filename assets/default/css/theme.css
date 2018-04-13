@@ -12,7 +12,8 @@ body {
 }
 body {
   font-family: "Helvetica Neue", sans-serif;
-  color: #303030;
+  color: #0072bc;
+  font-weight: bold;
 }
 input,
 select,
