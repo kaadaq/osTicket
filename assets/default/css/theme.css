@@ -12,7 +12,7 @@ body {
 }
 body {
   font-family: "Helvetica Neue", sans-serif;
-  color: #ccc;
+  color: #303030;
 }
 input,
 select,
@@ -488,8 +488,6 @@ body {
   height: auto !important;
   overflow: hidden;
   margin: 0;
-  background: url(../images/kb_category_bg.png) bottom left repeat-x;
-  border-bottom: 1px solid #ddd;
   display: block;
 }
 #kb > li h4 span {
