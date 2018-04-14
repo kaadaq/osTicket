@@ -94,7 +94,8 @@ a time {
 #breadcrumbs {
     color: #333;
     margin-bottom: 15px;
-    background-color:#F4FAFF;
+    background-color:#1d1d1d;  
+    border: 1px solid #F4FAFF;
     padding:8px;
 }
 
@@ -1521,10 +1522,10 @@ h2 > i.help-tip {
   height:auto !important;
   overflow:hidden;
   margin:0;
-  background-image:url(../images/kb_large_folder.png), url(../images/kb_category_bg.png);
+  background-image:url(../images/kb_large_folder.png);
   background-position:0 50%, bottom left;
-  background-repeat:no-repeat, repeat-x;
-  border-bottom:1px solid #ddd;
+  background-repeat:no-repeat;
+  border:3px solid #ddd;
 }
 #kb li:last-child {
     border-bottom:none;
@@ -2024,7 +2025,7 @@ input[type=button].small, .small.button, input[type=submit].small {
 
 /* Upgrader */
 #upgrader { width: 100%; height: auto; clear: both;}
-.sidebar { width: 220px; padding: 10px; border: 1px solid #C8DDFA; float: right; background: #F7FBFE; }
+.sidebar { width: 220px; padding: 10px; border: 1px solid #C8DDFA; float: right; background: #1d1d1d; }
 .sidebar h3 { margin: 0 0 5px 0; padding: 0; text-indent: 32px; background: url('../images/cog.png?1312913866') top left no-repeat; line-height: 24px; color: #2a67ac; }
 
 #upgrader #main { width: 680px; float: left;}
