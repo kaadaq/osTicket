@@ -973,7 +973,7 @@ img.sign-in-image {
     margin-right: 20px;
 }
 .sidebar .content {
-    padding: 10px; border: 1px solid #C8DDFA; background: #F7FBFE;
+    padding: 10px; border: 1px solid #C8DDFA; background: #1d1d1d;
 }
 .sidebar .content:empty {
     display: none;
