@@ -27,8 +27,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px !important;
   line-height: 1.428571429;
-  color: #333333;
-  background-color: #ffffff;
+  color: #bcbcbc;
   margin: 0;
   padding: 0.9em;
   word-wrap: break-word;
@@ -43,6 +42,7 @@
 }
 .thread-body h1 {
   font-size: 2em;
+  color:#00AEEF;
   margin: 0.67em 0;
 }
 .thread-body abbr[title] {
