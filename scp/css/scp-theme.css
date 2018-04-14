@@ -1,0 +1,292 @@
+:root {
+    --dark-bg-color: #1d1d1d;
+    --mid-bg-color: #2d2d2d;
+    --light-bg-color: #3d3d3d;
+    --main-text-color: #bcbcbc;
+    --link-color: #00AEEF;
+}
+
+
+body,
+html {
+/*     background: var(--mid-bg-color); */
+    color: var(--main-text-color);
+}
+#container {
+ 	box-shadow: none  !important;   
+}
+.type-icon {
+    background-color: var(--dark-bg-color);
+    /* border: 1px solid var(--dark-bg-color); */
+}
+td.nohover{
+	background-color: var(--light-bg-color) !important;
+}
+
+.header{
+	background-color: var(--mid-bg-color) !important;
+    border: 1px solid #ddd !important;
+    color: var(--link-color);
+}
+.header a time {
+ 	color: var(--main-text-color) !important;   
+}
+
+
+
+#container > div:nth-child(4){
+	background-color: var(--mid-bg-color)
+}
+
+.thread-event .type-icon::after {
+    border: 16px solid var(--dark-bg-color);
+}
+.dialog {
+    background: var(--mid-bg-color);
+    border: 2px solid var(--link-color);
+}
+.dialog th {
+    background: var(--mid-bg-color);
+}
+.thread-body {
+    color: var(--main-text-color);
+    background-color: var(--mid-bg-color);
+}
+.thread-entry::before {
+    border-top: 2px solid var(--mid-bg-color);
+}
+.thread-entry::after {
+    border-bottom: 2px solid var(--mid-bg-color);
+}
+.ticket_info {
+    background: var(--mid-bg-color);
+}
+.tip_content {
+    background: var(--mid-bg-color);
+}
+.tixTitle h3 {
+    color: var(--link-color);
+    font-weight: bold;
+}
+.ticket_info.custom-data thead th {
+    background-color: var(--mid-bg-color);
+}
+ul.tabs.clean li.active {
+    background-color: var(--dark-bg-color);
+}
+.sticky.bar.fixed {
+    background: var(--mid-bg-color);
+}
+select {
+    background: var(--main-text-color);
+}
+.select2-container--default .select2-selection--single {
+    background-color: var(--main-text-color);
+}
+table.list {
+    background-color: var(--mid-bg-color);
+}
+table.list thead th {
+    background-color: var(--mid-bg-color);
+    color: var(--main-text-color);
+    border: 1px solid #bbb;
+}
+element.style {
+    background-color: #849984;
+}
+
+table.list tbody tr:hover td,
+table.list tbody tr.highlight td {
+    background: #878774;
+}
+table.list tbody tr:nth-child(2n+1):hover td {
+    background: #878774;
+}
+table.dashboard-stats tbody:nth-child(2) tr:hover {
+    background-color: #878774;
+}
+table.list thead th a.asc {
+    background-color: #878774;
+}
+table.list thead th a.desc {
+    background-color: #878774;
+}
+table tfoot td {
+    background: var(--mid-bg-color);
+}
+table.list tbody td {
+    /*background: #5a5a5a; */
+    background: var(--light-bg-color);
+}
+table.list tbody tr:nth-child(2n+1) td {
+    background-color: var(--light-bg-color)
+}
+#header {
+    background-color: var(--mid-bg-color);
+}
+
+#header a {
+    color: var(--link-color);
+}
+
+#sub_nav {
+    background: var(--mid-bg-color);
+}
+#basic_search {
+    background-color: var(--mid-bg-color);
+}
+#nav .active a {
+    color: var(--mid-bg-color);
+}
+#nav .inactive a {
+    color: var(--link-color);
+}
+#nav .active,
+#nav .inactive {
+    color: var(--link-color);
+}
+#nav li.inactive > ul {
+    background: var(--mid-bg-color);
+}
+table.list thead th a {
+    color: var(--main-text-color);
+}
+#content {
+    border-bottom: 1px solid #bbb;
+    background: var(--dark-bg-color);
+}
+#sub_nav a {
+    color: var(--main-text-color);
+}
+.form_table th,
+div.section-break {
+    background: var(--dark-bg-color);
+}
+#header p {
+    background: var(--dark-bg-color);
+}
+#nav {
+    background: var(--mid-bg-color);
+}
+#nav li.active {
+    background-color: var(--link-color);
+}
+#nav li.inactive:hover {
+    background-color: var(--mid-bg-color);
+}
+a {
+    color: var(--link-color);
+}
+.dialog a {
+    color: var(--link-color);
+}
+h2 {
+    color: var(--link-color);
+}
+.action-button,
+.action-button.muted,
+.button {
+    color: var(--link-color);
+    box-shadow: 0 0 0 0.5px var(--link-color) inset;
+}
+.dialog h3 {
+    color: var(--link-color);
+}
+.green.button:hover {
+    box-shadow: 0 0 0 2px #16ab39 inset;
+    color: #16ab39;
+}
+.button:hover,
+.button:active,
+.action-button:hover,
+.action-button:active,
+input[type=button]:hover,
+input[type=button]:active,
+input[type=reset]:hover,
+input[type=reset]:active {
+    color: var(--link-color);
+    box-shadow: 0 0 0 1px var(--link-color) inset;
+}
+.quicknote a.action,
+.floating-options a.action {
+    color: var(--link-color) !important;
+}
+.link.truncate {
+    color: var(--link-color);
+}
+input[type=text],
+input[type=password],
+textarea,
+input {
+    background: var(--main-text-color);
+}
+.form_table th em {
+    color: var(--main-text-color);
+}
+.link,
+a {
+    color: var(--link-color);
+}
+table {
+    border-collapse: collapse;
+}
+ul.tabs {
+    background: var(--dark-bg-color);
+}
+#response_options > form {
+    background: var(--dark-bg-color);
+}
+ul.tabs li.active {
+    color: var(--main-text-color);
+    background-color: var(--dark-bg-color);
+}
+ul.tabs li.active a {
+    color: var(--main-text-color);
+}
+.redactor-editor,
+.redactor-box {
+    background: var(--light-bg-color);
+}
+.faded {
+    color: var(--main-text-color);
+}
+.faded b {
+    color: var(--main-text-color);
+}
+.faded strong {
+    color: #16ab39;
+}
+.faded-more {
+    color: var(--main-text-color);
+}
+button[type=submit]:hover,
+input[type=submit]:hover,
+input[type=submit]:active {
+    color: #16ab39;
+    box-shadow: 0 0 0 2px #16ab39 inset;
+}
+.thread-body .attachments {
+    background-color: var(--mid-bg-color);
+}
+.priority.low {
+    color: #b3ffa3;
+    /* background-color: #93c3e2!important; */
+    background-color: var(--light-bg-color)!important;
+}
+.priority.normal {
+    color: #aaf5ff;
+    background-color: var(--light-bg-color)!important;
+}
+.priority.high {
+    color: #ffa3a3;
+    /* background-color: #e8877d!important; */
+    background-color: var(--light-bg-color)!important;
+}
+.priority.emergency {
+    color: #ee5f5b;
+    background-color: var(--light-bg-color)!important;
+}
+#msg_warning,
+.warning-banner {
+    background-color: var(--mid-bg-color);
+}
