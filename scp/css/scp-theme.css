@@ -290,3 +290,29 @@ input[type=submit]:active {
 .warning-banner {
     background-color: var(--mid-bg-color);
 }
+#breadcrumbs {
+  color: #333;
+  margin-bottom: 15px;
+  background-color:#1d1d1d;  
+  border: 1px solid #F4FAFF;
+  padding:8px;
+}
+
+#kb li {
+  padding:10px 10px 10px 46px;
+  height:auto !important;
+  overflow:hidden;
+  margin:0;
+  backgroud-image:url(../images/kb_large_folder.png);
+  background-position:0 50%;
+  background-repeat:no-repeat;
+  border:3px solid #ddd;
+}
+
+.sidebar { 
+  width: 220px; 
+  padding: 10px; 
+  border: 1px solid #C8DDFA; 
+  float: right; 
+  background: #1d1d1d; 
+}
