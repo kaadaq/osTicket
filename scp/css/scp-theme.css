@@ -69,7 +69,8 @@ td.nohover{
     font-weight: bold;
 }
 .ticket_info.custom-data thead th {
-    background-color: var(--link-color);
+    color: var(--link-color);
+    background-color: var(--mid-bg-color);
 }
 ul.tabs.clean li.active {
     background-color: var(--dark-bg-color);
