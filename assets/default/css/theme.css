@@ -22,7 +22,7 @@ textarea {
 }
 b,
 strong {
-  font-weight: bold;
+  font-weight: bolder;
 }
 blockquote {
   margin: 1em 40px;
@@ -149,7 +149,7 @@ h2, .subject {
   display: none;
 }
 .faded {
-  color: #666;
+  color: #00AEEF;
 }
 /* Pagination */
 #pagination {
@@ -401,7 +401,8 @@ body {
   height: auto !important;
   height: 350px;
   min-height: 350px;
-  color:#8c8c8c;
+  color:#00AEEF;
+  font-weight: bold;
 }
 #redactor-editor {
 	color:#000;
@@ -1041,6 +1042,7 @@ table.custom-data {
 }
 table.custom-data th {
     width: 25%;
+    color: #0072bc;
 }
 table.custom-data th {
     background-color: #F4FAFF;
@@ -1248,7 +1250,8 @@ img.avatar {
     width: 642px;
     width: calc(100% - 95px);
     line-height: 1.4em;
-	color:#bcbcbc;
+    color:#00AEEF;
+    font-weight: bold;
 }
 .thread-event .type-icon {
   position:relative;
