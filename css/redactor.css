@@ -130,7 +130,7 @@ body .redactor-box-fullscreen {
   content: attr(placeholder);
   display: block;
   /* For Firefox */
-  color: #999 !important;
+  color: #000 !important;
   font-weight: normal !important;
 }
 /* Placeholder in linebreaks mode */
