@@ -9,11 +9,11 @@
 
 body,
 html {
-    background-image: url(https://stage-9.co.uk/wp-content/uploads/2016/09/battlebridge.jpg);
-    background-repeat: no-repeat;
-    background-size: 400%, 100%;
-    background-position-y: top;
-    color: var(--main-text-color);
+	background-image: url(https://stage-9.co.uk/wp-content/uploads/2016/09/battlebridge.jpg);
+	background-repeat: no-repeat;
+	background-size: 400%, 100%;
+	background-position-y: top;
+	color: var(--main-text-color);
 }
 #container {
  	box-shadow: none  !important;   
@@ -256,8 +256,8 @@ ul.tabs li.active a {
     color: var(--main-text-color);
 }
 .faded b {
-    color: var(--link-color);
-    font-weight: bolder;
+	color: var(--link-color);
+	font-weight: bolder;
 }
 .faded strong {
     color: #16ab39;
