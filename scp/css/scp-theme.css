@@ -256,8 +256,8 @@ ul.tabs li.active a {
     color: var(--main-text-color);
 }
 .faded b {
-	color: var(--link-color);
-	font-weight: bolder;
+	color: var(--link-color);
+	font-weight: bolder;
 }
 .faded strong {
     color: #16ab39;
