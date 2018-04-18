@@ -17,7 +17,7 @@
             <div style="margin-left:45px">
             <h4><?php echo sprintf('<a href="faq.php?cid=%d">%s (%d)</a>',
                 $C->getId(), Format::htmlchars($C->getLocalName()), $C->faq_count); ?></h4>
-            <div class="faded" style="margin:10px 0">
+            <div class="faded-kb" style="margin:10px 0">
                 <?php echo Format::safe_html($C->getLocalDescriptionWithImages()); ?>
             </div>
 <?php       foreach ($C->faqs

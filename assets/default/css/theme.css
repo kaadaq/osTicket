@@ -20,6 +20,11 @@ textarea {
   font-family: "Helvetica Neue", sans-serif;
   color: #111;
 }
+
+.faded-kb {
+  color: #bcbcbc;
+}
+
 b,
 strong {
   font-weight: bolder;
@@ -403,6 +408,7 @@ body {
   color:#00AEEF;
   font-weight: bold;
 }
+
 #redactor-editor {
 	color:#000;
 }
