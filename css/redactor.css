@@ -38,6 +38,7 @@
 .redactor-editor,
 .redactor-box {
   background: #fff;
+	color: #000;
 }
 /*
 	Z-index setup
