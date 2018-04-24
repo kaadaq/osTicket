@@ -9,11 +9,15 @@
 
 body,
 html {
-	background-image: url(https://stage-9.co.uk/wp-content/uploads/2016/09/battlebridge.jpg);
+<<<<<<< 1.10.x
+    background: #000000;
+    color: var(--main-text-color);
+=======	
 	background-repeat: no-repeat;
 	background-size: 500%, 100%;
 	background-position-y: top;
 	color: var(--main-text-color);
+>>>>>>> 1.10.x
 }
 #container {
  	box-shadow: none  !important;   
@@ -296,6 +300,8 @@ input[type=submit]:active {
 .warning-banner {
     background-color: var(--mid-bg-color);
 }
+<<<<<<< 1.10.x
+=======
 #breadcrumbs {
   color: #333;
   margin-bottom: 15px;
@@ -327,3 +333,4 @@ input[type=submit]:active {
     color: var(--link-color);
     font-weight: bold;
 }
+>>>>>>> 1.10.x
